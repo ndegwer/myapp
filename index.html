@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta  name = "viewport" content = "initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+        <link rel="stylesheet" href="./codebase/touchui.css" type="text/css" media="screen" charset="utf-8">
+        <script src="./codebase/touchui.js" type="text/javascript" charset="utf-8"></script>
+
+
+    </head>
+    <body>
+        <script type="text/javascript" charset="utf-8">
+            dhx.ui({id: 'app', view: 'layout',
+                rows: [
+                    {view: 'layout', type: 'wide',
+                        rows: [
+                            {view: 'label', label: 'My App', id: 'control_label_4'},
+                            {view: 'form', scroll: true,
+                                elements: [
+                                    {view: 'text', label: 'Username', value: '', labelPosition: 'left', labelAlign: 'left', type: 'text', id: 'control_text_8', labelWidth: '100'},
+                                    {view: 'text', label: 'Password', value: '', labelPosition: 'left', labelAlign: 'left', type: 'password', id: 'control_text_9', labelWidth: '100'},
+                                    {view: 'button', label: 'Login', id: 'control_button_2'}
+                                ], id: 'form_2'
+                            }
+                        ], id: 'layout_2'
+                    }
+                ]
+            });
+        </script>
+    </body>
+</html>
