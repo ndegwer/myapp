@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.org/ns/1.0"
+        id          = "com.ndegwer.myapp"
+        versionCode = "1"
+        version     = "1.0.0" >
+    <name>My App</name>
+    <description>This app is to test dhtmlx touch</description>
+    <author href="ndegwer.byethost5.com" email="ndegwa22@gmail.com">
+        Martin Ndegwa
+    </author>
+    
+    <icon src="ldpi.png" gap:platform="android" gap:qualifier="ldpi" />
+    
+</widget>
